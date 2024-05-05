@@ -1,0 +1,22 @@
+.image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  #image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .enlarge-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
